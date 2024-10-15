@@ -1,20 +1,34 @@
 /* src/pages/HomePage.css */
-body {
-    background-image: url('./bg.jpg'); /* Path to your image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    flex-direction: column;
-  }
+.homepage {
+  background-image: url(./bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
-  main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   /*color: white; /* Adjust text color for better visibility */
-  }
-  
+}
+
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.highlight {
+  background: rgb(228, 219, 219);
+  padding: 1rem;
+  border-radius: 8px;
+  width: 30%;
+  text-align: center;
+}
