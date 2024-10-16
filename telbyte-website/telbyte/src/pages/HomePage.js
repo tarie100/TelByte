@@ -8,7 +8,7 @@ const HomePage = () => {
   return (
     <div className="homepage">
       <Header />
-      <main>
+      <main className="fade-in">
         <h2>Welcome to Telbyte</h2>
         <p>Your reliable network provider offering high-speed internet, mobile plans, and TV packages.</p>
         <section className="highlights">

@@ -1,5 +1,5 @@
-// src/components/Services.js
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Services = () => {
   return (

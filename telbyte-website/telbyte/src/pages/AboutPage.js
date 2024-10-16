@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <div className="about-page">
       <Header />
-      <main>
+      <main className="zoom-in">
         <h2>About Us</h2>
         <p>Telbyte is a leading network provider dedicated to delivering reliable and affordable services. Our mission is to connect people and businesses with the world through innovative technology and exceptional customer service.</p>
         <section className="mission">

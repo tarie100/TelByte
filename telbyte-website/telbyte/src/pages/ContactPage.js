@@ -8,7 +8,7 @@ const ContactPage = () => {
   return (
     <div className="contact-page">
       <Header />
-      <main>
+      <main className="bounce">
         <h2>Contact Us</h2>
         <p>If you have any questions, feel free to reach out to us using the form below or through our contact details.</p>
         <section className="contact-form-section">

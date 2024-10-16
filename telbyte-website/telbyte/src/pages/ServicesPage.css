@@ -22,4 +22,13 @@
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+  .slide-in {
+    transform: translateX(-100%);
+    animation: slideIn 1s forwards;
+  }
   
+  @keyframes slideIn {
+    to {
+      transform: translateX(0);
+    }
+  }

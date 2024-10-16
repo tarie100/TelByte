@@ -33,4 +33,13 @@
   li {
     margin: 0.5rem 0;
   }
+  .zoom-in {
+    transform: scale(0);
+    animation: zoomIn 0.5s forwards;
+  }
   
+  @keyframes zoomIn {
+    to {
+      transform: scale(1);
+    }
+  }

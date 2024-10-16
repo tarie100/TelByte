@@ -8,7 +8,7 @@ const ServicesPage = () => {
   return (
     <div className="services-page">
       <Header />
-      <main>
+      <main className="slide-in">
         <h2>Our Services</h2>
         <section className="service">
           <h3>High-Speed Internet</h3>
